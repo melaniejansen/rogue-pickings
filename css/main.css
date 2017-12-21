@@ -1,0 +1,113 @@
+
+/***** BASE STYLES *****/
+
+body {
+	width: 1200px;
+	margin: 0 auto;
+	font-family: Montserrat, sans-serif;
+}
+
+/***** HEADER *****/
+
+header {
+	height: 80px;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	float: left;
+}
+h1 span {
+	color: #77a466;
+}
+nav ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 30px;
+	word-spacing: 1em;
+}
+nav ul li {
+	color: #77a466;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/***** ABOUT SECTION *****/
+
+.about img {
+	border-bottom: 3px solid #77a466;
+	border-top: 3px solid #77a466;
+}
+
+.about h2 {
+	color: #77a466;
+	font-size: 18px;
+	font-weight: bold;
+	height: auto;
+	text-transform: uppercase;
+}
+.about p {
+	line-height: 25px;
+}
+
+/***** SPECIALS/CONTACT SECTION *****/
+
+.bottom {
+	height: 190px;
+	width: 1200px; 
+	margin: 0 auto; 
+}
+ .bottom h3 {
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.specials, .reviews, .contact {
+	border-top: 1px solid #d3d3d3;
+	float: left;
+	height:190px;
+	width: 33%;
+} 
+.specials, .reviews {
+	border-right: 1px solid #d3d3d3;
+}
+.reviews p, .contact p, .reviews h3, .contact h3 {
+	padding: 0px 20px;
+}
+
+.specials ul {
+	list-style-type: none;
+	padding: 0;
+}
+.specials ul li {
+	color: #77a466;
+	line-height: 35px
+}
+.reviews p {
+	width: 330px;
+}
+
+/***** FOOTER *****/
+
+footer {
+	height: 50px;
+	padding-top: 20px;
+	border-top: 1px solid #d3d3d3; 
+}
+footer .text {
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+footer span {
+	font-family: Lobster, serif;
+	color: #77a466;
+	font-size: 18px;
+	text-transform: none;
+}
+
